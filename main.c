@@ -32,10 +32,10 @@ int main()
             stud_show(hptr);
             break;
         case 'V':
-            char op;
+            char op1;
             printf("Do you want to save record or not\n");
-            scanf(" %c", &op);
-            if (op == 'y')
+            scanf(" %c", &op1);
+            if (op1 == 'y')
             {
                 printf("Saved student record successfully\n");
                 stud_save(hptr);
