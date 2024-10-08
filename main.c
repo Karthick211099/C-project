@@ -17,7 +17,7 @@ int main()
     printf("\n********Enter the your choice**********\n");
 
     ST *hptr = 0;
-    char op;
+    char op, op1;
     do
     {
         printf("Enter your option\n");
@@ -32,7 +32,6 @@ int main()
             stud_show(hptr);
             break;
         case 'V':
-            char op1;
             printf("Do you want to save record or not\n");
             scanf(" %c", &op1);
             if (op1 == 'y')
@@ -75,8 +74,8 @@ int main()
             printf("Total : %d\n", c);
             break;
         case 'T':
-            int c1 = stud_count(hptr);
             printf("sorting student record\n");
+            int c1 = stud_count(hptr);
             stud_sort(&hptr);
             stud_show(hptr);
             break;
