@@ -15,7 +15,6 @@ int main()
     printf("|_______________________________________|\n");
 
     printf("\n********Enter the your choice**********\n");
-
     ST *hptr = 0;
     char op, op1;
     do
